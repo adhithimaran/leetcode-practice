@@ -1,5 +1,5 @@
 class MinStack:
-
+    # redid: indexing mistakes, but got it
     def __init__(self):
         self.stack = []
         self.minStack = []
