@@ -1,0 +1,24 @@
+RoadMap:
+1. Arrays
+2. Linked List
+3. Maps
+---------
+4. Search (Binary, Linear)
+5. Sort (Quick Sorts)
+6. Trees
+    i. Binary (Pre, In, Post Traversals)
+--------- new grad, senior
+7. Graphs
+8. Backtrack
+9. Recursion
+10. Heaps
+11. Priority Queues
+--------- 
+12. DP
+13. Tries
+14. Union Sets
+--------- 
+Stuck?
+- bruteforce
+- think of other DS or alg to use
+- communicate to make sure you're on track
