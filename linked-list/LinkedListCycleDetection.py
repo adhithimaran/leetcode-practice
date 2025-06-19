@@ -14,13 +14,13 @@ class Solution:
         # add each node to array for cycle checking
         if (head.next == None):
             return False
-        curr = head
-        cycle_checking_list = []
-        while (curr):
-            if (curr in cycle_checking_list): # cycle exists
+        fast = head
+        slow = head
+        while (fast and fast.next):
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
                 return True
-            cycle_checking_list.append(curr)
-            curr = curr.next
         return False
 
 
