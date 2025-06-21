@@ -13,6 +13,9 @@ class Solution:
             length +=1
 
         new_n = length - n
+        # Edge case: removing the first node
+        if new_n == 0:
+            return head.next
         curr = head
         prev = None
         count = 0
