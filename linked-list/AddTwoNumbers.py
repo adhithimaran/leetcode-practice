@@ -6,28 +6,22 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        num1 = ""
-        num2 = ""
-
-        curr = l1
-        while curr:
-            num1 = str(curr.val) + num1
-            curr = curr.next
-        
-        curr = l2
-        while curr:
-            num2 = str(curr.val) + num2
-            curr = curr.next
-        
-        sum_num = int(num1) + int(num2)
-        if sum_num == 0:
-            return ListNode(0, None)
-        
         dummy = ListNode(0)
         curr = dummy
+        carry = 0
         
-        for digit_char in str(sum_num)[::-1]:  # Reverse the string to get digits in reverse order
-            curr.next = ListNode(int(digit_char))
+        while l1 or l2 or carry:
+            val1 = l1.val if l1 else 0
+            val2 = l2.val if l2 else 0
+            
+            total = val1 + val2 + carry
+            carry = total // 10
+            digit = total % 10
+            
+            curr.next = ListNode(digit)
             curr = curr.next
+            
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
         
         return dummy.next
