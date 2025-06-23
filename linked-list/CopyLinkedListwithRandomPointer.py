@@ -1,9 +1,11 @@
-
+"""
+# Definition for a Node.
 class Node:
     def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
         self.val = int(x)
         self.next = next
         self.random = random
+"""
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
@@ -15,7 +17,7 @@ class Solution:
         head_copy = None
         while curr:
             # make new node, set the value
-            new_node = Node(head.val, None, None)
+            new_node = Node(curr.val, None, None)
             if curr is head:
                 head_copy = new_node
             real_to_copy[curr] = new_node
@@ -26,6 +28,9 @@ class Solution:
         curr = head
         while curr:
             # set the next node and random to the new_nodes
-            real_to_copy[curr].next = real_to_copy[curr.next]
+            if curr.next:
+                real_to_copy[curr].next = real_to_copy[curr.next]
+            if curr.random:
+                real_to_copy[curr].random = real_to_copy[curr.random]
             curr = curr.next
         return head_copy
