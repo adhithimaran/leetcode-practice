@@ -1,0 +1,29 @@
+def isPalindrome(s):
+        # iterate through string (skipping over spaces)
+        # ptr 1 = 0
+        # ptr 2 = last ele (len -1)
+        # if equal then continue
+        # else: false
+        j = len(s)-1
+        for i in (range(len(s))):
+            print(f'Does {s[i]} == {s[j]}')
+
+            if s[j] == " ":
+                i-=1
+                j-=1
+            
+            if(s[i] != " " and s[j] != " ") and (s[i] != "." and s[j] != ".") and (s[i] != "?" and s[j] != "?") and (s[i] != "," and s[j] != ",")  :
+                if (s[i] != s[j]):
+                    return False
+            j -= 1
+
+        return True
+
+s = "Was it a car or a cat I saw?"
+print(isPalindrome(s))
+
+# What is a valid character? A-Z, a-z, 0-9
+# Case 1: valid I, invalid J
+# Case 2: invalid I, valid J
+# Case 3: both I + J are invalid
+# Case 4: both I + J are valid
