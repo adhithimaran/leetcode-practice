@@ -24,9 +24,7 @@ def isPalindrome(s):
        # Case 1: valid I, invalid J
            # i stays, j moves
        if (i_valid == True and j_valid == False):
-           i-=1
            j-=1
-           i += 1
            continue
        # Case 2: invalid I, valid J
            # i moves, j stays
