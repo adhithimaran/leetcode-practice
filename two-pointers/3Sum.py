@@ -19,3 +19,23 @@ class Solution:
             k = j + 1 if j < n - 1 else n
         
         return triplets
+    
+# Example usage:
+my_list = [1, 2, 3, 4]
+
+print("Using nested while loops (pointer method):")
+all_triplets1 = threeSum(my_list)
+print(all_triplets1)
+
+print("\nUsing iterative pointer method:")
+all_triplets2 = find_all_triplets_iterative_pointer(my_list)
+print(all_triplets2)
+
+# Both should output: [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]]
+
+# Test with another example
+test_list = ['a', 'b', 'c', 'd', 'e']
+print(f"\nTriplets from {test_list}:")
+triplets = threeSum(test_list)
+for triplet in triplets:
+    print(triplet)
