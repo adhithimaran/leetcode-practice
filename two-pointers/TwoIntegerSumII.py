@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(1)
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # loop through array (2 ptrs)
