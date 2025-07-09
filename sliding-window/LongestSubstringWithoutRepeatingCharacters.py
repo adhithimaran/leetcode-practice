@@ -4,7 +4,7 @@ def lengthOfLongestSubstring(s):
     
     i = 0
     j = 0
-    letters = set()
+    letters = set() #O(1) lookup
     max_length = 0
     
     while j < len(s):
