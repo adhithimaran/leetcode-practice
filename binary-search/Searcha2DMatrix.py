@@ -8,13 +8,13 @@ def searchMatrix(matrix, target):
     rows = len(matrix)
     curr_row = 0
     while curr_row < rows:
-        high = len(matrix)-1
+        high = len(matrix[curr_row])-1
         low = 0
         while (high >= low):
             mid = (low + high) // 2
-            if (target < matrix[mid]):
+            if (target < matrix[curr_row][mid]):
                 high = mid-1
-            elif (target > matrix[mid]):
+            elif (target > matrix[curr_row][mid]):
                 low = mid+1
             else:
                 return mid
