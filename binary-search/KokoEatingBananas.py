@@ -1,26 +1,40 @@
 import math
+from typing import List
 
-
-def minEatingSpeed(piles, h):
-    # piles = list of ints (num bananas in each pile)
-    # h = hours you have to each all bananas
-    #k = b/hr rate (min int that you can eat all bananas within h hour)
-    # len(p) <= k
-    speed = min(piles)
-    while True:
-        totalTime = 0
-        for pile in piles:
-            totalTime += math.ceil(pile / speed)
+class Solution:
+    def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        # Binary search bounds
+        left = 1  # minimum possible speed
+        right = max(piles)  # maximum possible speed needed
         
-        if totalTime <= h:
-            return speed
-        speed += 1
-    return speed
+        while left < right:
+            mid = (left + right) // 2
+            
+            # Calculate total time needed at this speed
+            total_time = 0
+            for pile in piles:
+                total_time += math.ceil(pile / mid)
+            
+            # If we can finish in time, try a slower speed
+            if total_time <= h:
+                right = mid
+            else:
+                # Too slow, need faster speed
+                left = mid + 1
+        
+        return left
 
-piles = [1,4,3,2]
-h = 9
-print(minEatingSpeed(piles, h)) # 2
+# Test the solution
+solution = Solution()
 
-piles = [25,10,23,4]
-h = 4
-print(minEatingSpeed(piles, h)) # 25
+# Test case 1
+piles1 = [3, 6, 7, 11]
+h1 = 8
+print(f"Test 1: piles={piles1}, h={h1}")
+print(f"Result: {solution.minEatingSpeed(piles1, h1)}")  # Expected: 4
+
+# Test case 2
+piles2 = [30, 11, 23, 4, 20]
+h2 = 5
+print(f"\nTest 2: piles={piles2}, h={h2}")
+print(f"Result: {solution.minEatingSpeed(piles2, h2)}")  # Expected: 30
