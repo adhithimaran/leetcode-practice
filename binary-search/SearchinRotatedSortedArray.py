@@ -6,26 +6,25 @@ def search(nums, target):
         
         # Check if we found the target
         if nums[m] == target:
-            return m 
+            return m
         
-        if nums[m] > target:
-            if nums[m] > nums[r]:
-                # right
-                l = m+1
+        # Determine which half is sorted
+        if nums[l] <= nums[m]:  # Left half is sorted
+            # Check if target is in the sorted left half
+            if nums[l] <= target < nums[m]:
+                r = m - 1  # Search left half
             else:
-                # left
-                r = m-1
-        
-        else:
-            if nums[m] > nums[r]:
-                # left
-                r = m-1
+                l = m + 1  # Search right half
+        else:  # Right half is sorted
+            # Check if target is in the sorted right half
+            if nums[m] < target <= nums[r]:
+                l = m + 1  # Search right half
             else:
-                #right
-                l = m+1
+                r = m - 1  # Search left half
 
     
     return -1
 
 nums=[3,5,1]
 target=3
+print(search(nums, target))
