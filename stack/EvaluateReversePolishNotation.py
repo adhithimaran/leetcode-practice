@@ -1,37 +1,22 @@
 def evalRPN(tokens):
-    # Qs:
-        # What are other stack data structures in Python
-
-    # Input: tokens = Array of Strings (arithmetic exp in RPN)
-    # Output: evaluation of tokens
-    temp = [] # stack to hold ints before operator
+    stack = []
     for token in tokens:
-        print(f'this is token: {token}')
-        try:
-            # integer: add to stack
-            num = int(token)
-            temp.append(num)
-        except ValueError:
-        # operator: 
-            # remove (first in first out) + apply operator
-            curr_output = temp[0]
-            del temp[0]
+        if token in ['+', '-', '*', '/']:
+            # Pop last two elements (LIFO)
+            b = stack.pop()  # second operand
+            a = stack.pop()  # first operand
+            
             if token == '+':
-                for i in range(len(temp)):
-                    curr_output += temp[i]
-            if token == '-':
-                for i in range(len(temp)):
-                    curr_output -= temp[i]
-            if token == '*':
-                for i in range(len(temp)):
-                    curr_output *= temp[i]
-            if token == '/':
-                for i in range(len(temp)):
-                    curr_output *= temp[i]
-
-            # add evaluation back to stack and continue
-            temp = [curr_output]
-    return temp[0] # should only be one left
-
-tokens = ["1","2","+","3","*","4","-"] #5
-print(evalRPN(tokens))
+                result = a + b
+            elif token == '-':
+                result = a - b
+            elif token == '*':
+                result = a * b
+            elif token == '/':
+                result = int(a / b)  # truncate toward zero
+            
+            stack.append(result)
+        else:
+            stack.append(int(token))
+    
+    return stack[0]
