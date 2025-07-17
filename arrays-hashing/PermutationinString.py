@@ -1,14 +1,12 @@
 def checkInclusion(s1, s2):
-    s1 = list(s1)
-    s1.sort()
-    s2 = list(s2)
-    s2.sort()
-    s1_string = ""
-    s1_string.join(s1)
-    s2_string = ""
-    s2_string.join(s2)
-    if s1 in s2:
-        return True
+    s1 = sorted(s1)
+
+    for i in range(len(s2)):
+        for j in range(i, len(s2)):
+            subStr = s2[i : j + 1]
+            subStr = sorted(subStr)
+            if subStr == s1:
+                return True
     return False
 
 s1="ab"
