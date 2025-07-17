@@ -11,26 +11,22 @@ def characterReplacement(s, k):
     max_len = 0
     left = 0
     window_char_count = {}
+    max_char_count = 0
     for right in range(len(s)):
-        print(f'current window:\n{s[left:right+1]}')
-        replacements = k
-        valid = True
         if (s[right] not in window_char_count):
             window_char_count[s[right]] = 1
         else:
             window_char_count[s[right]] += 1
-        
-        print(f'this is max key and value: {max(window_char_count.values())}')
-        print(f'this is length of current window: {len(s[left:right+1])}')
-        if (max(window_char_count.values()) + replacements) < len(s[left:right+1]):
-            valid = False
-            max_len = max(max_len, max(window_char_count.values()) + k)
+        max_char_count = max(max_char_count, window_char_count[s[right]])
+        window_size = right-left+1
+        if window_size - max_char_count > k:
             window_char_count[s[left]] -=1
-            left +=1
+            left+=1
+        max_len = max(max_len, right-left+1)
     return max_len
         
 
-s = "XYYX"
+s="AAAA"
 k = 2
 print(characterReplacement(s, k))
 
