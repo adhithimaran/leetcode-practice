@@ -7,10 +7,17 @@ def characterReplacement(s, k):
     max_length = 0
     left = 0
     for right in range(len(s)):
-        uniques = k
-        # Case 1: added character is same
-        # Case 2: character not same but have k integer
-        # Case 3: character is not same , no more k int
+        window_char_count = {}
+        replacements = k
+        valid = True
+        while valid:
+            if (s[right] not in window_char_count):
+                window_char_count[s[right]] = 1
+            else:
+                window_char_count[s[right]] += 1
+            # Case 1: added character is same
+            # Case 2: character not same but have k integer
+            # Case 3: character is not same , no more k int
 
 s = "XYYX"
 k = 2
