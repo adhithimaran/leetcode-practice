@@ -1,22 +1,26 @@
-def checkInclusion( s1, s2):
+def checkInclusion(s1, s2):
     print(f'this is s1: {s1}')
     print(f'this is s2: {s2}')
-    s1 = list(s1)
-    s2 = list(s2)
-    s1.sort()
-    s2.sort()
-    print(f'this is s1 sorted: {s1}')
-    print(f'this is s2 sorted: {s2}')
-    r = len(s1)-1
-    for l in range(len(s2)):
-        print(f'curr window: {s2[l:r+1]}')
-        if (s2[l:r+1] == s1):
+    
+    # Handle edge cases
+    if len(s1) > len(s2):
+        return False
+    
+    s1_sorted = sorted(s1)
+    print(f'this is s1 sorted: {s1_sorted}')
+    
+    # Check each window of size len(s1) in s2
+    for l in range(len(s2) - len(s1) + 1):
+        window = s2[l:l + len(s1)]
+        window_sorted = sorted(window)
+        print(f'curr window: {window} -> sorted: {window_sorted}')
+        
+        if window_sorted == s1_sorted:
             return True
-        if l == len(s2) - len(s1) + 1:
-            return False
-        r+=1
+    
     return False
 
-s1 = "xz"
-s2 = "lecabeexzy"
-print(checkInclusion(s1, s2))
+# Test cases
+print("Test 1:", checkInclusion("ab", "eidbaooo"))  # Should return True
+print("\nTest 2:", checkInclusion("ab", "eidboaoo"))  # Should return False
+print("\nTest 3:", checkInclusion("abc", "bac"))      # Should return True
