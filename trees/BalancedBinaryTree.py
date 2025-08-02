@@ -16,12 +16,12 @@ class Solution:
         print(f'right height: \n{right_h}')
         print(f'left height: \n{left_h}')
 
-        if abs(left_h - right_h) > 1:
-            return False
-        
+        left_balanced = self.isBalanced(root.left)
+        right_balanced = self.isBalanced(root.right)
 
-        self.isBalanced(root.right)
-        self.isBalanced(root.left)
+        return abs(left_h - right_h) <= 1 and left_balanced and right_balanced
+
+    
 
 
     def getHeightRec(self, root: Optional[TreeNode], right_or_left) -> int:
