@@ -18,16 +18,19 @@ class Solution:
             return False
         
         def traverse(root, root2):
-
             if not root and not root2:
                 return True
-            
-            traverse(root.left, root2.left)
-            print(root.val)
-            if (root.val != root2.val):
+            if not root or not root2:
                 return False
-            traverse(root.right, root2.right)
-            return True
+            
+            if root.val != root2.val:
+                return False
+                
+            left_result = traverse(root.left, root2.left)
+            right_result = traverse(root.right, root2.right)
+            
+            return left_result and right_result
+
         
         return traverse(p, q)
 
