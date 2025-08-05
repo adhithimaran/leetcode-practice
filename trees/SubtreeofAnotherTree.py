@@ -25,16 +25,22 @@ class Solution:
             # check if next nodes match as well
             # YES? True
             # NO? False
-        def rec_traverse(root, subRoot):
-            # reach end of root
-            # reach end of subroot
-            # root != subroot: keep going
-            # root == subroot: keep going and check each node for equality
-            
-
-            return True
         
-        return rec_traverse(root, subRoot)
+        return (self.isSameTree(root, subRoot) or 
+            self.isSubtree(root.left, subRoot) or 
+            self.isSubtree(root.right, subRoot))
+    
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        # Base cases
+        if not p and not q:
+            return True
+        if not p or not q:
+            return False
+
+        # Check current nodes and recurse on children
+        return (p.val == q.val and 
+                self.isSameTree(p.left, q.left) and 
+                self.isSameTree(p.right, q.right))
         
 
         
