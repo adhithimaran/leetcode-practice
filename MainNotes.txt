@@ -22,3 +22,23 @@ Stuck?
 - bruteforce
 - think of other DS or alg to use
 - communicate to make sure you're on track
+
+Notes:
+- Simplify the Problem:
+    Input -> ... -> Output
+    - the input are ..., we do ... to the inputs, and finally, we get ... as the output
+    - catch edge cases
+- Pattern Recognition:
+    - Big O
+    - Algorithms + Data Structures
+    - walk through most obvious answer (even if not efficient, get Big O notation)
+    - identify optimal solution
+        - check constraints
+        - look for hints and context of problems to find this
+- Implementation + Coding
+    - practice various patterns often and customize based on problem
+    - e.g. BFS 
+- Debug
+    - Implementation Error 
+    - Syntax Error
+    - Add print statements to get better visibility 
