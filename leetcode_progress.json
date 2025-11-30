@@ -1,7 +1,7 @@
 {
-  "RemoveElement": {
+  "is_valid_sudoku": {
     "number": null,
-    "name": "Removeelement",
+    "name": "Is Valid Sudoku",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -12,11 +12,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/RemoveElement.py"
+    "file_path": "arrays-hashing/is_valid_sudoku.py"
   },
-  "GroupAnagrams": {
+  "can_jump": {
     "number": null,
-    "name": "Groupanagrams",
+    "name": "Can Jump",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -27,11 +27,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/GroupAnagrams.py"
+    "file_path": "arrays-hashing/can_jump.py"
   },
-  "RemoveDuplicatesfromSortedArray": {
+  "max_area": {
     "number": null,
-    "name": "Removeduplicatesfromsortedarray",
+    "name": "Max Area",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -42,9 +42,69 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/RemoveDuplicatesfromSortedArray.py"
+    "file_path": "arrays-hashing/max_area.py"
   },
-  "Reverse": {
+  "merge_sorted_array": {
+    "number": null,
+    "name": "Merge Sorted Array",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/merge_sorted_array.py"
+  },
+  "mediamof_2_sorted_arrays": {
+    "number": null,
+    "name": "Mediamof 2 Sorted Arrays",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/mediamof_2_sorted_arrays.py"
+  },
+  "remove_duplicatesfrom_sorted_array": {
+    "number": null,
+    "name": "Remove Duplicatesfrom Sorted Array",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/remove_duplicatesfrom_sorted_array.py"
+  },
+  "plus_one": {
+    "number": null,
+    "name": "Plus One",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/plus_one.py"
+  },
+  "reverse": {
     "number": null,
     "name": "Reverse",
     "status": "redo",
@@ -57,11 +117,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/Reverse.py"
+    "file_path": "arrays-hashing/reverse.py"
   },
-  "Mediamof2SortedArrays": {
+  "is_anagram": {
     "number": null,
-    "name": "Mediamof2sortedarrays",
+    "name": "Is Anagram",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -72,11 +132,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/Mediamof2SortedArrays.py"
+    "file_path": "arrays-hashing/is_anagram.py"
   },
-  "ProductofArrayExceptSelf": {
+  "longest_consecutive_sequence": {
     "number": null,
-    "name": "Productofarrayexceptself",
+    "name": "Longest Consecutive Sequence",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -87,11 +147,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/ProductofArrayExceptSelf.py"
+    "file_path": "arrays-hashing/longest_consecutive_sequence.py"
   },
-  "SingleNumber": {
+  "has_duplicate": {
     "number": null,
-    "name": "Singlenumber",
+    "name": "Has Duplicate",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -102,11 +162,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/SingleNumber.py"
+    "file_path": "arrays-hashing/has_duplicate.py"
   },
-  "EncodeDecodeStrings": {
+  "three_sum_closest": {
     "number": null,
-    "name": "Encodedecodestrings",
+    "name": "Three Sum Closest",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -117,11 +177,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/EncodeDecodeStrings.py"
+    "file_path": "arrays-hashing/three_sum_closest.py"
   },
-  "TwoSum": {
+  "top_k_frequent": {
     "number": null,
-    "name": "Twosum",
+    "name": "Top K Frequent",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -132,11 +192,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/TwoSum.py"
+    "file_path": "arrays-hashing/top_k_frequent.py"
   },
-  "HasDuplicate": {
+  "find_duplicate": {
     "number": null,
-    "name": "Hasduplicate",
+    "name": "Find Duplicate",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -147,11 +207,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/HasDuplicate.py"
+    "file_path": "arrays-hashing/find_duplicate.py"
   },
-  "GroupAnagram": {
+  "permutationin_string": {
     "number": null,
-    "name": "Groupanagram",
+    "name": "Permutationin String",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -162,11 +222,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/GroupAnagram.py"
+    "file_path": "arrays-hashing/permutationin_string.py"
   },
-  "maxArea": {
+  "add_two_numbers": {
     "number": null,
-    "name": "Maxarea",
+    "name": "Add Two Numbers",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -177,11 +237,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/maxArea.py"
+    "file_path": "arrays-hashing/add_two_numbers.py"
   },
-  "LongestConsecutiveSequence": {
+  "encode_decode_strings": {
     "number": null,
-    "name": "Longestconsecutivesequence",
+    "name": "Encode Decode Strings",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -192,11 +252,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/LongestConsecutiveSequence.py"
+    "file_path": "arrays-hashing/encode_decode_strings.py"
   },
-  "IsAnagram": {
+  "group_anagram": {
     "number": null,
-    "name": "Isanagram",
+    "name": "Group Anagram",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -207,11 +267,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/IsAnagram.py"
+    "file_path": "arrays-hashing/group_anagram.py"
   },
-  "PlusOne": {
+  "reorder_list": {
     "number": null,
-    "name": "Plusone",
+    "name": "Reorder List",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -222,11 +282,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/PlusOne.py"
+    "file_path": "arrays-hashing/reorder_list.py"
   },
-  "TopKFrequent": {
+  "single_number": {
     "number": null,
-    "name": "Topkfrequent",
+    "name": "Single Number",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -237,11 +297,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/TopKFrequent.py"
+    "file_path": "arrays-hashing/single_number.py"
   },
-  "PermutationinString": {
+  "remove_element": {
     "number": null,
-    "name": "Permutationinstring",
+    "name": "Remove Element",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -252,11 +312,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/PermutationinString.py"
+    "file_path": "arrays-hashing/remove_element.py"
   },
-  "MergeSortedArray": {
+  "daily_temperatures": {
     "number": null,
-    "name": "Mergesortedarray",
+    "name": "Daily Temperatures",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -267,11 +327,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/MergeSortedArray.py"
+    "file_path": "arrays-hashing/daily_temperatures.py"
   },
-  "CanJump": {
+  "set_matrix_zeros": {
     "number": null,
-    "name": "Canjump",
+    "name": "Set Matrix Zeros",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -282,11 +342,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/CanJump.py"
+    "file_path": "arrays-hashing/set_matrix_zeros.py"
   },
-  "IsValidSudoku": {
+  "group_anagrams": {
     "number": null,
-    "name": "Isvalidsudoku",
+    "name": "Group Anagrams",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -297,11 +357,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/IsValidSudoku.py"
+    "file_path": "arrays-hashing/group_anagrams.py"
   },
-  "SetMatrixZeros": {
+  "two_sum": {
     "number": null,
-    "name": "Setmatrixzeros",
+    "name": "Two Sum",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -312,11 +372,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/SetMatrixZeros.py"
+    "file_path": "arrays-hashing/two_sum.py"
   },
-  "threeSumClosest": {
+  "productof_array_except_self": {
     "number": null,
-    "name": "Threesumclosest",
+    "name": "Productof Array Except Self",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -327,7 +387,7 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from arrays-hashing/",
-    "file_path": "arrays-hashing/threeSumClosest.py"
+    "file_path": "arrays-hashing/productof_array_except_self.py"
   },
   "subsets": {
     "number": null,
@@ -343,9 +403,9 @@
     "notes": "Auto-imported from backtracking/",
     "file_path": "backtracking/subsets.py"
   },
-  "Searcha2DMatrix": {
+  "searchin_rotated_sorted_array": {
     "number": null,
-    "name": "Searcha2dmatrix",
+    "name": "Searchin Rotated Sorted Array",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -355,11 +415,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from binary-search/",
-    "file_path": "binary-search/Searcha2DMatrix.py"
+    "file_path": "binary-search/searchin_rotated_sorted_array.py"
   },
-  "KokoEatingBananas": {
+  "binary_search": {
     "number": null,
-    "name": "Kokoeatingbananas",
+    "name": "Binary Search",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -369,11 +429,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from binary-search/",
-    "file_path": "binary-search/KokoEatingBananas.py"
+    "file_path": "binary-search/binary_search.py"
   },
-  "SearchinRotatedSortedArray": {
+  "find_minimumin_rotated_sorted_array": {
     "number": null,
-    "name": "Searchinrotatedsortedarray",
+    "name": "Find Minimumin Rotated Sorted Array",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -383,11 +443,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from binary-search/",
-    "file_path": "binary-search/SearchinRotatedSortedArray.py"
+    "file_path": "binary-search/find_minimumin_rotated_sorted_array.py"
   },
-  "FindMinimuminRotatedSortedArray": {
+  "searcha_2_d_matrix": {
     "number": null,
-    "name": "Findminimuminrotatedsortedarray",
+    "name": "Searcha 2 D Matrix",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -397,11 +457,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from binary-search/",
-    "file_path": "binary-search/FindMinimuminRotatedSortedArray.py"
+    "file_path": "binary-search/searcha_2_d_matrix.py"
   },
-  "BinarySearch": {
+  "balanced_binary_tree": {
     "number": null,
-    "name": "Binarysearch",
+    "name": "Balanced Binary Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -411,11 +471,39 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from binary-search/",
-    "file_path": "binary-search/BinarySearch.py"
+    "file_path": "binary-search/balanced_binary_tree.py"
   },
-  "ReorderLinkedList": {
+  "diameter_of_binary_tree": {
     "number": null,
-    "name": "Reorderlinkedlist",
+    "name": "Diameter Of Binary Tree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/diameter_of_binary_tree.py"
+  },
+  "koko_eating_bananas": {
+    "number": null,
+    "name": "Koko Eating Bananas",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/koko_eating_bananas.py"
+  },
+  "lru_cache": {
+    "number": null,
+    "name": "Lru Cache",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -425,11 +513,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/ReorderLinkedList.py"
+    "file_path": "linked-list/lru_cache.py"
   },
-  "FindtheDuplicateNumber": {
+  "merge_two_sorted_linked_lists": {
     "number": null,
-    "name": "Findtheduplicatenumber",
+    "name": "Merge Two Sorted Linked Lists",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -439,11 +527,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/FindtheDuplicateNumber.py"
+    "file_path": "linked-list/merge_two_sorted_linked_lists.py"
   },
-  "LinkedListCycleDetection": {
+  "linked_list_cycle_detection": {
     "number": null,
-    "name": "Linkedlistcycledetection",
+    "name": "Linked List Cycle Detection",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -453,11 +541,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/LinkedListCycleDetection.py"
+    "file_path": "linked-list/linked_list_cycle_detection.py"
   },
-  "ReverseALinkedList": {
+  "reverse_a_linked_list": {
     "number": null,
-    "name": "Reversealinkedlist",
+    "name": "Reverse A Linked List",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -467,11 +555,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/ReverseALinkedList.py"
+    "file_path": "linked-list/reverse_a_linked_list.py"
   },
-  "LRUCache": {
+  "findthe_duplicate_number": {
     "number": null,
-    "name": "Lrucache",
+    "name": "Findthe Duplicate Number",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -481,11 +569,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/LRUCache.py"
+    "file_path": "linked-list/findthe_duplicate_number.py"
   },
-  "CopyLinkedListwithRandomPointer": {
+  "reorder_linked_list": {
     "number": null,
-    "name": "Copylinkedlistwithrandompointer",
+    "name": "Reorder Linked List",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -495,11 +583,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/CopyLinkedListwithRandomPointer.py"
+    "file_path": "linked-list/reorder_linked_list.py"
   },
-  "RemoveNthNodeFromEndofLL": {
+  "remove_nth_from_end": {
     "number": null,
-    "name": "Removenthnodefromendofll",
+    "name": "Remove Nth From End",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -509,11 +597,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/RemoveNthNodeFromEndofLL.py"
+    "file_path": "linked-list/remove_nth_from_end.py"
   },
-  "AddTwoNumbers": {
+  "remove_nth_node_from_endof_ll": {
     "number": null,
-    "name": "Addtwonumbers",
+    "name": "Remove Nth Node From Endof Ll",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -523,11 +611,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/AddTwoNumbers.py"
+    "file_path": "linked-list/remove_nth_node_from_endof_ll.py"
   },
-  "MergeTwoSortedLinkedLists": {
+  "copy_linked_listwith_random_pointer": {
     "number": null,
-    "name": "Mergetwosortedlinkedlists",
+    "name": "Copy Linked Listwith Random Pointer",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -537,11 +625,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from linked-list/",
-    "file_path": "linked-list/MergeTwoSortedLinkedLists.py"
+    "file_path": "linked-list/copy_linked_listwith_random_pointer.py"
   },
-  "RotateImage": {
+  "rotate_image": {
     "number": null,
-    "name": "Rotateimage",
+    "name": "Rotate Image",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -551,11 +639,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from matrix/",
-    "file_path": "matrix/RotateImage.py"
+    "file_path": "matrix/rotate_image.py"
   },
-  "SpiralMatrix": {
+  "spiral_matrix": {
     "number": null,
-    "name": "Spiralmatrix",
+    "name": "Spiral Matrix",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -565,11 +653,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from matrix/",
-    "file_path": "matrix/SpiralMatrix.py"
+    "file_path": "matrix/spiral_matrix.py"
   },
-  "BestTimetoBuyandSellStock": {
+  "best_timeto_buyand_sell_stock": {
     "number": null,
-    "name": "Besttimetobuyandsellstock",
+    "name": "Best Timeto Buyand Sell Stock",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -579,11 +667,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from sliding-window/",
-    "file_path": "sliding-window/BestTimetoBuyandSellStock.py"
+    "file_path": "sliding-window/best_timeto_buyand_sell_stock.py"
   },
-  "LongestSubstringWithoutRepeatingCharacters": {
+  "longest_substring_without_repeating_characters": {
     "number": null,
-    "name": "Longestsubstringwithoutrepeatingcharacters",
+    "name": "Longest Substring Without Repeating Characters",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -593,11 +681,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from sliding-window/",
-    "file_path": "sliding-window/LongestSubstringWithoutRepeatingCharacters.py"
+    "file_path": "sliding-window/longest_substring_without_repeating_characters.py"
   },
-  "LongestRepeatingCharacterReplacement": {
+  "longest_repeating_character_replacement": {
     "number": null,
-    "name": "Longestrepeatingcharacterreplacement",
+    "name": "Longest Repeating Character Replacement",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -607,11 +695,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from sliding-window/",
-    "file_path": "sliding-window/LongestRepeatingCharacterReplacement.py"
+    "file_path": "sliding-window/longest_repeating_character_replacement.py"
   },
-  "CarFleets": {
+  "minimum_stack": {
     "number": null,
-    "name": "Carfleets",
+    "name": "Minimum Stack",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -621,11 +709,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/CarFleets.py"
+    "file_path": "stack/minimum_stack.py"
   },
-  "MinimumStack": {
+  "generate_parentheses": {
     "number": null,
-    "name": "Minimumstack",
+    "name": "Generate Parentheses",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -635,11 +723,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/MinimumStack.py"
+    "file_path": "stack/generate_parentheses.py"
   },
-  "ValidParentheses": {
+  "min_stack": {
     "number": null,
-    "name": "Validparentheses",
+    "name": "Min Stack",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -649,11 +737,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/ValidParentheses.py"
+    "file_path": "stack/min_stack.py"
   },
-  "DailyTemperatures": {
+  "car_fleets": {
     "number": null,
-    "name": "Dailytemperatures",
+    "name": "Car Fleets",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -663,11 +751,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/DailyTemperatures.py"
+    "file_path": "stack/car_fleets.py"
   },
-  "EvaluateReversePolishNotation": {
+  "valid_parentheses": {
     "number": null,
-    "name": "Evaluatereversepolishnotation",
+    "name": "Valid Parentheses",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -677,11 +765,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/EvaluateReversePolishNotation.py"
+    "file_path": "stack/valid_parentheses.py"
   },
-  "GenerateParentheses": {
+  "generate_parenthesis": {
     "number": null,
-    "name": "Generateparentheses",
+    "name": "Generate Parenthesis",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -691,11 +779,25 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from stack/",
-    "file_path": "stack/GenerateParentheses.py"
+    "file_path": "stack/generate_parenthesis.py"
   },
-  "DiameterofBinaryTree": {
+  "evaluate_reverse_polish_notation": {
     "number": null,
-    "name": "Diameterofbinarytree",
+    "name": "Evaluate Reverse Polish Notation",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/evaluate_reverse_polish_notation.py"
+  },
+  "same_tree": {
+    "number": null,
+    "name": "Same Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -705,11 +807,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/DiameterofBinaryTree.py"
+    "file_path": "trees/same_tree.py"
   },
-  "InvertBinaryTree": {
+  "is_same_tree": {
     "number": null,
-    "name": "Invertbinarytree",
+    "name": "Is Same Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -719,11 +821,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/InvertBinaryTree.py"
+    "file_path": "trees/is_same_tree.py"
   },
-  "BalancedBinaryTree": {
+  "max_depth": {
     "number": null,
-    "name": "Balancedbinarytree",
+    "name": "Max Depth",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -733,11 +835,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/BalancedBinaryTree.py"
+    "file_path": "trees/max_depth.py"
   },
-  "MaxDepth": {
+  "invert_binary_tree": {
     "number": null,
-    "name": "Maxdepth",
+    "name": "Invert Binary Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -747,11 +849,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/MaxDepth.py"
+    "file_path": "trees/invert_binary_tree.py"
   },
-  "SubtreeofAnotherTree": {
+  "lowest_common_anscestor": {
     "number": null,
-    "name": "Subtreeofanothertree",
+    "name": "Lowest Common Anscestor",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -761,11 +863,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/SubtreeofAnotherTree.py"
+    "file_path": "trees/lowest_common_anscestor.py"
   },
-  "SameTree": {
+  "subtreeof_another_tree": {
     "number": null,
-    "name": "Sametree",
+    "name": "Subtreeof Another Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -775,11 +877,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/SameTree.py"
+    "file_path": "trees/subtreeof_another_tree.py"
   },
-  "LowestCommonAnscestor": {
+  "diameterof_binary_tree": {
     "number": null,
-    "name": "Lowestcommonanscestor",
+    "name": "Diameterof Binary Tree",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -789,11 +891,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from trees/",
-    "file_path": "trees/LowestCommonAnscestor.py"
+    "file_path": "trees/diameterof_binary_tree.py"
   },
-  "IsPalindrome": {
+  "is_palindrome": {
     "number": null,
-    "name": "Ispalindrome",
+    "name": "Is Palindrome",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -803,11 +905,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from two-pointers/",
-    "file_path": "two-pointers/IsPalindrome.py"
+    "file_path": "two-pointers/is_palindrome.py"
   },
-  "TwoIntegerSumII": {
+  "container_with_most_water": {
     "number": null,
-    "name": "Twointegersumii",
+    "name": "Container With Most Water",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -817,11 +919,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from two-pointers/",
-    "file_path": "two-pointers/TwoIntegerSumII.py"
+    "file_path": "two-pointers/container_with_most_water.py"
   },
-  "ContainerWithMostWater": {
+  "3_sum": {
     "number": null,
-    "name": "Containerwithmostwater",
+    "name": "3 Sum",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -831,11 +933,11 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from two-pointers/",
-    "file_path": "two-pointers/ContainerWithMostWater.py"
+    "file_path": "two-pointers/3_sum.py"
   },
-  "3Sum": {
+  "two_integer_sum_ii": {
     "number": null,
-    "name": "3sum",
+    "name": "Two Integer Sum Ii",
     "status": "redo",
     "difficulty": "medium",
     "tags": [
@@ -845,20 +947,6 @@
     "last_reviewed": null,
     "next_review": "2025-12-01",
     "notes": "Auto-imported from two-pointers/",
-    "file_path": "two-pointers/3Sum.py"
-  },
-  "0016_three_sum_closest": {
-    "number": 16,
-    "name": "Three Sum Closest",
-    "status": "redo",
-    "difficulty": "medium",
-    "tags": [
-      "two-pointers",
-      "array"
-    ],
-    "attempts": 1,
-    "last_reviewed": "2025-11-30",
-    "next_review": "2025-12-01",
-    "notes": ""
+    "file_path": "two-pointers/two_integer_sum_ii.py"
   }
 }
