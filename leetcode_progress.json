@@ -1,0 +1,864 @@
+{
+  "RemoveElement": {
+    "number": null,
+    "name": "Removeelement",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/RemoveElement.py"
+  },
+  "GroupAnagrams": {
+    "number": null,
+    "name": "Groupanagrams",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/GroupAnagrams.py"
+  },
+  "RemoveDuplicatesfromSortedArray": {
+    "number": null,
+    "name": "Removeduplicatesfromsortedarray",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/RemoveDuplicatesfromSortedArray.py"
+  },
+  "Reverse": {
+    "number": null,
+    "name": "Reverse",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/Reverse.py"
+  },
+  "Mediamof2SortedArrays": {
+    "number": null,
+    "name": "Mediamof2sortedarrays",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/Mediamof2SortedArrays.py"
+  },
+  "ProductofArrayExceptSelf": {
+    "number": null,
+    "name": "Productofarrayexceptself",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/ProductofArrayExceptSelf.py"
+  },
+  "SingleNumber": {
+    "number": null,
+    "name": "Singlenumber",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/SingleNumber.py"
+  },
+  "EncodeDecodeStrings": {
+    "number": null,
+    "name": "Encodedecodestrings",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/EncodeDecodeStrings.py"
+  },
+  "TwoSum": {
+    "number": null,
+    "name": "Twosum",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/TwoSum.py"
+  },
+  "HasDuplicate": {
+    "number": null,
+    "name": "Hasduplicate",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/HasDuplicate.py"
+  },
+  "GroupAnagram": {
+    "number": null,
+    "name": "Groupanagram",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/GroupAnagram.py"
+  },
+  "maxArea": {
+    "number": null,
+    "name": "Maxarea",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/maxArea.py"
+  },
+  "LongestConsecutiveSequence": {
+    "number": null,
+    "name": "Longestconsecutivesequence",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/LongestConsecutiveSequence.py"
+  },
+  "IsAnagram": {
+    "number": null,
+    "name": "Isanagram",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/IsAnagram.py"
+  },
+  "PlusOne": {
+    "number": null,
+    "name": "Plusone",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/PlusOne.py"
+  },
+  "TopKFrequent": {
+    "number": null,
+    "name": "Topkfrequent",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/TopKFrequent.py"
+  },
+  "PermutationinString": {
+    "number": null,
+    "name": "Permutationinstring",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/PermutationinString.py"
+  },
+  "MergeSortedArray": {
+    "number": null,
+    "name": "Mergesortedarray",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/MergeSortedArray.py"
+  },
+  "CanJump": {
+    "number": null,
+    "name": "Canjump",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/CanJump.py"
+  },
+  "IsValidSudoku": {
+    "number": null,
+    "name": "Isvalidsudoku",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/IsValidSudoku.py"
+  },
+  "SetMatrixZeros": {
+    "number": null,
+    "name": "Setmatrixzeros",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/SetMatrixZeros.py"
+  },
+  "threeSumClosest": {
+    "number": null,
+    "name": "Threesumclosest",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from arrays-hashing/",
+    "file_path": "arrays-hashing/threeSumClosest.py"
+  },
+  "subsets": {
+    "number": null,
+    "name": "Subsets",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "backtracking"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from backtracking/",
+    "file_path": "backtracking/subsets.py"
+  },
+  "Searcha2DMatrix": {
+    "number": null,
+    "name": "Searcha2dmatrix",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/Searcha2DMatrix.py"
+  },
+  "KokoEatingBananas": {
+    "number": null,
+    "name": "Kokoeatingbananas",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/KokoEatingBananas.py"
+  },
+  "SearchinRotatedSortedArray": {
+    "number": null,
+    "name": "Searchinrotatedsortedarray",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/SearchinRotatedSortedArray.py"
+  },
+  "FindMinimuminRotatedSortedArray": {
+    "number": null,
+    "name": "Findminimuminrotatedsortedarray",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/FindMinimuminRotatedSortedArray.py"
+  },
+  "BinarySearch": {
+    "number": null,
+    "name": "Binarysearch",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "binary-search"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from binary-search/",
+    "file_path": "binary-search/BinarySearch.py"
+  },
+  "ReorderLinkedList": {
+    "number": null,
+    "name": "Reorderlinkedlist",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/ReorderLinkedList.py"
+  },
+  "FindtheDuplicateNumber": {
+    "number": null,
+    "name": "Findtheduplicatenumber",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/FindtheDuplicateNumber.py"
+  },
+  "LinkedListCycleDetection": {
+    "number": null,
+    "name": "Linkedlistcycledetection",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/LinkedListCycleDetection.py"
+  },
+  "ReverseALinkedList": {
+    "number": null,
+    "name": "Reversealinkedlist",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/ReverseALinkedList.py"
+  },
+  "LRUCache": {
+    "number": null,
+    "name": "Lrucache",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/LRUCache.py"
+  },
+  "CopyLinkedListwithRandomPointer": {
+    "number": null,
+    "name": "Copylinkedlistwithrandompointer",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/CopyLinkedListwithRandomPointer.py"
+  },
+  "RemoveNthNodeFromEndofLL": {
+    "number": null,
+    "name": "Removenthnodefromendofll",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/RemoveNthNodeFromEndofLL.py"
+  },
+  "AddTwoNumbers": {
+    "number": null,
+    "name": "Addtwonumbers",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/AddTwoNumbers.py"
+  },
+  "MergeTwoSortedLinkedLists": {
+    "number": null,
+    "name": "Mergetwosortedlinkedlists",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "linked-list"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from linked-list/",
+    "file_path": "linked-list/MergeTwoSortedLinkedLists.py"
+  },
+  "RotateImage": {
+    "number": null,
+    "name": "Rotateimage",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "matrix"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from matrix/",
+    "file_path": "matrix/RotateImage.py"
+  },
+  "SpiralMatrix": {
+    "number": null,
+    "name": "Spiralmatrix",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "matrix"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from matrix/",
+    "file_path": "matrix/SpiralMatrix.py"
+  },
+  "BestTimetoBuyandSellStock": {
+    "number": null,
+    "name": "Besttimetobuyandsellstock",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "sliding-window"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from sliding-window/",
+    "file_path": "sliding-window/BestTimetoBuyandSellStock.py"
+  },
+  "LongestSubstringWithoutRepeatingCharacters": {
+    "number": null,
+    "name": "Longestsubstringwithoutrepeatingcharacters",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "sliding-window"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from sliding-window/",
+    "file_path": "sliding-window/LongestSubstringWithoutRepeatingCharacters.py"
+  },
+  "LongestRepeatingCharacterReplacement": {
+    "number": null,
+    "name": "Longestrepeatingcharacterreplacement",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "sliding-window"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from sliding-window/",
+    "file_path": "sliding-window/LongestRepeatingCharacterReplacement.py"
+  },
+  "CarFleets": {
+    "number": null,
+    "name": "Carfleets",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/CarFleets.py"
+  },
+  "MinimumStack": {
+    "number": null,
+    "name": "Minimumstack",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/MinimumStack.py"
+  },
+  "ValidParentheses": {
+    "number": null,
+    "name": "Validparentheses",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/ValidParentheses.py"
+  },
+  "DailyTemperatures": {
+    "number": null,
+    "name": "Dailytemperatures",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/DailyTemperatures.py"
+  },
+  "EvaluateReversePolishNotation": {
+    "number": null,
+    "name": "Evaluatereversepolishnotation",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/EvaluateReversePolishNotation.py"
+  },
+  "GenerateParentheses": {
+    "number": null,
+    "name": "Generateparentheses",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "stack"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from stack/",
+    "file_path": "stack/GenerateParentheses.py"
+  },
+  "DiameterofBinaryTree": {
+    "number": null,
+    "name": "Diameterofbinarytree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/DiameterofBinaryTree.py"
+  },
+  "InvertBinaryTree": {
+    "number": null,
+    "name": "Invertbinarytree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/InvertBinaryTree.py"
+  },
+  "BalancedBinaryTree": {
+    "number": null,
+    "name": "Balancedbinarytree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/BalancedBinaryTree.py"
+  },
+  "MaxDepth": {
+    "number": null,
+    "name": "Maxdepth",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/MaxDepth.py"
+  },
+  "SubtreeofAnotherTree": {
+    "number": null,
+    "name": "Subtreeofanothertree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/SubtreeofAnotherTree.py"
+  },
+  "SameTree": {
+    "number": null,
+    "name": "Sametree",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/SameTree.py"
+  },
+  "LowestCommonAnscestor": {
+    "number": null,
+    "name": "Lowestcommonanscestor",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "trees"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from trees/",
+    "file_path": "trees/LowestCommonAnscestor.py"
+  },
+  "IsPalindrome": {
+    "number": null,
+    "name": "Ispalindrome",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "two-pointers"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from two-pointers/",
+    "file_path": "two-pointers/IsPalindrome.py"
+  },
+  "TwoIntegerSumII": {
+    "number": null,
+    "name": "Twointegersumii",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "two-pointers"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from two-pointers/",
+    "file_path": "two-pointers/TwoIntegerSumII.py"
+  },
+  "ContainerWithMostWater": {
+    "number": null,
+    "name": "Containerwithmostwater",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "two-pointers"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from two-pointers/",
+    "file_path": "two-pointers/ContainerWithMostWater.py"
+  },
+  "3Sum": {
+    "number": null,
+    "name": "3sum",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "two-pointers"
+    ],
+    "attempts": 0,
+    "last_reviewed": null,
+    "next_review": "2025-12-01",
+    "notes": "Auto-imported from two-pointers/",
+    "file_path": "two-pointers/3Sum.py"
+  },
+  "0016_three_sum_closest": {
+    "number": 16,
+    "name": "Three Sum Closest",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "two-pointers",
+      "array"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2025-11-30",
+    "next_review": "2025-12-01",
+    "notes": ""
+  }
+}
