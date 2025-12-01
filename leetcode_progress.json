@@ -948,5 +948,19 @@
     "next_review": "2025-12-01",
     "notes": "Auto-imported from two-pointers/",
     "file_path": "two-pointers/two_integer_sum_ii.py"
+  },
+  "0040_combination_sum_ii": {
+    "number": 40,
+    "name": "Combination Sum II",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2025-12-01",
+    "next_review": "2025-12-02",
+    "notes": ""
   }
 }
