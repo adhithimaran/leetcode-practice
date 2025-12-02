@@ -29,6 +29,16 @@ TOPIC_FOLDERS = {
     "trees": "trees",
     "pointer": "two-pointers",
     "pointers": "two-pointers",
+        "dp": "dynamic-programming",
+    "dynamic": "dynamic-programming",
+        "graph": "graphs",
+    "graphs": "graphs",
+    "dfs": "graphs",
+    "bfs": "graphs",
+        "heap": "heap",
+    "pq": "heap",
+    "priority": "heap",
+        "greedy": "greedy",
 }
 
 def run_command(cmd, check=True):

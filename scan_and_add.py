@@ -22,6 +22,10 @@ FOLDER_TO_TAG = {
     "stack": "stack",
     "trees": "trees",
     "two-pointers": "two-pointers"
+    "dynamic-programming": "dynamic-programming,dp",
+    "graphs": "graphs,graph,dfs,bfs",
+    "heap": "heap,priority-queue",
+    "greedy": "greedy",
 }
 
 def load_progress():

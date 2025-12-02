@@ -7,7 +7,7 @@ A systematic approach to tracking and reviewing LeetCode problems with automated
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    🌅 START YOUR DAY                            │
-│                   python workflow.py daily                       │
+│                   python workflow.py daily                      │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -198,6 +198,10 @@ When adding problems, use these topic keywords (they map to folders):
 | `stack` | stack |
 | `tree`, `trees` | trees |
 | `pointer`, `pointers` | two-pointers |
+| `greedy` | greedy |
+| `heap`, `pq`, `priority` | heap |
+| `graph`, `graphs`, `dfs`, `bfs` | graphs |
+| `dp`, `dynamic` | dynamic-programming |
 
 ### Adding New Topic Folders
 
