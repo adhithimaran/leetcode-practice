@@ -1,8 +1,65 @@
-# LeetCode Practice Repository
+# 🚀 LeetCode Practice Repository
 
 A systematic approach to tracking and reviewing LeetCode problems with automated workflows.
 
-## Repo Structure
+## 📊 Visual Workflow
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    🌅 START YOUR DAY                            │
+│                   python workflow.py daily                       │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+        ┌─────────────────────────────────────────┐
+        │  Shows:                                  │
+        │  • 📊 Your stats (total/confident/redo)  │
+        │  • 🔥 Problems due today                 │
+        │  • 🔴 All redo problems                  │
+        └─────────────────────────────────────────┘
+                              │
+                    ┌─────────┴─────────┐
+                    │                   │
+                    ▼                   ▼
+        ┌──────────────────┐   ┌──────────────────┐
+        │  NEW PROBLEM?    │   │  REVIEW PROBLEM? │
+        └──────────────────┘   └──────────────────┘
+                    │                   │
+                    ▼                   ▼
+    ┌───────────────────────┐   ┌──────────────────────┐
+    │ python workflow.py    │   │ Solve the problem... │
+    │ add <#> "<n>"        │   │                      │
+    │ <topic> <difficulty>  │   └──────────────────────┘
+    └───────────────────────┘           │
+            │                           ▼
+            │               ┌────────────────────────┐
+            │               │ python workflow.py     │
+            │               │ review <#> <status>    │
+            │               │                        │
+            │               │ Status:                │
+            │               │ • confident (🟢)       │
+            │               │ • review (🟡)          │
+            │               │ • redo (🔴)            │
+            │               └────────────────────────┘
+            │                           │
+            └───────────┬───────────────┘
+                        ▼
+        ┌─────────────────────────────────┐
+        │   ✅ AUTO COMMITS TO GIT         │
+        │   Updates leetcode_progress.json │
+        └─────────────────────────────────┘
+                        │
+                        ▼
+        ┌─────────────────────────────────┐
+        │  📅 SPACED REPETITION SCHEDULE   │
+        │                                  │
+        │  🔴 redo      → review in 1 day  │
+        │  🟡 review    → review in 7 days │
+        │  🟢 confident → review in 30 days│
+        └─────────────────────────────────┘
+```
+
+## 📁 Repository Structure
 
 ```
 LEETCODE/
@@ -22,7 +79,7 @@ LEETCODE/
 └── leetcode_progress.json  # Your progress data (auto-generated)
 ```
 
-## Quick Start
+## 🎯 Quick Start
 
 ### First Time Setup
 
@@ -76,7 +133,7 @@ python workflow.py review 16 confident
 # 3. Commit to git automatically
 ```
 
-## Manual Commands
+## 🛠️ Manual Commands
 
 ### Tracker Commands
 
@@ -113,7 +170,7 @@ git push
 git log --oneline
 ```
 
-## Status System
+## 📊 Status System
 
 Your problems are tracked with three statuses:
 
@@ -141,6 +198,40 @@ When adding problems, use these topic keywords (they map to folders):
 | `stack` | stack |
 | `tree`, `trees` | trees |
 | `pointer`, `pointers` | two-pointers |
+
+### Adding New Topic Folders
+
+Need a new topic category? Use the automated script:
+
+```bash
+# Format: python add_folder.py <folder-name> "<tags>" "<keywords>"
+python add_folder.py dynamic-programming "dynamic-programming,dp" "dp,dynamic"
+```
+
+**Examples:**
+```bash
+# Add graphs folder
+python add_folder.py graphs "graphs,graph,dfs,bfs" "graph,graphs,dfs,bfs"
+
+# Add heap/priority queue folder
+python add_folder.py heap "heap,priority-queue" "heap,pq,priority"
+
+# Add greedy algorithms folder
+python add_folder.py greedy "greedy" "greedy"
+```
+
+The script automatically:
+- ✅ Creates the folder
+- ✅ Updates `scan_and_add.py` and `workflow.py`
+- ✅ Updates this README
+- ✅ Makes it immediately usable in workflows
+
+After running, commit the changes:
+```bash
+git add .
+git commit -m "Add topic: <folder-name>"
+git push
+```
 
 ## 💡 Examples
 
