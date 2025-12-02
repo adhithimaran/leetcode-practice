@@ -26,8 +26,18 @@ def find_problem_file(problem_number):
     """Find the file for a given problem number"""
     progress = load_progress()
     
+    # Try to find by number (could be int or string with leading zeros)
+    problem_num = int(problem_number)
+    
     for problem_id, data in progress.items():
-        if data.get("number") == int(problem_number):
+        # Check if the number matches
+        if data.get("number") == problem_num:
+            file_path = data.get("file_path")
+            if file_path and Path(file_path).exists():
+                return Path(file_path), problem_id, data
+        
+        # Also check if problem_id starts with the number (for cases like 0040_combination_sum)
+        if problem_id.startswith(f"{problem_num:04d}_") or problem_id.startswith(f"{problem_num}_"):
             file_path = data.get("file_path")
             if file_path and Path(file_path).exists():
                 return Path(file_path), problem_id, data

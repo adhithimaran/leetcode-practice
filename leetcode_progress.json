@@ -958,7 +958,7 @@
       "arrays",
       "hashing"
     ],
-    "attempts": 3,
+    "attempts": 4,
     "last_reviewed": "2025-12-02",
     "next_review": "2025-12-03",
     "notes": "Don't understand backtracking fully"
