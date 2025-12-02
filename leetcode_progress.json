@@ -962,5 +962,19 @@
     "last_reviewed": "2025-12-02",
     "next_review": "2025-12-03",
     "notes": "Don't understand backtracking fully"
+  },
+  "0290_word_pattern": {
+    "number": 290,
+    "name": "Word Pattern",
+    "status": "redo",
+    "difficulty": "easy",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2025-12-02",
+    "next_review": "2025-12-03",
+    "notes": ""
   }
 }
