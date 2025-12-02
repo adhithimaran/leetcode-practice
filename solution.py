@@ -33,8 +33,32 @@ def find_problem_file(problem_number):
         # Check if the number matches
         if data.get("number") == problem_num:
             file_path = data.get("file_path")
+            
+            # If file_path exists in data, use it
             if file_path and Path(file_path).exists():
                 return Path(file_path), problem_id, data
+            
+            # If no file_path, search for it based on problem_id
+            if not file_path:
+                # Search in all topic folders
+                folders = [
+                    "arrays-hashing", "backtracking", "binary-search",
+                    "linked-list", "matrix", "sliding-window", 
+                    "stack", "trees", "two-pointers"
+                ]
+                
+                for folder in folders:
+                    folder_path = Path(folder)
+                    if folder_path.exists():
+                        # Look for files matching the problem_id
+                        for py_file in folder_path.glob(f"*{problem_id}*.py"):
+                            if not py_file.name.endswith('.hidden'):
+                                return py_file, problem_id, data
+                        
+                        # Also try just the number
+                        for py_file in folder_path.glob(f"*{problem_num:04d}*.py"):
+                            if not py_file.name.endswith('.hidden'):
+                                return py_file, problem_id, data
         
         # Also check if problem_id starts with the number (for cases like 0040_combination_sum)
         if problem_id.startswith(f"{problem_num:04d}_") or problem_id.startswith(f"{problem_num}_"):

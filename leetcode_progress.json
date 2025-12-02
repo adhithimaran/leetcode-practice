@@ -966,15 +966,15 @@
   "0290_word_pattern": {
     "number": 290,
     "name": "Word Pattern",
-    "status": "redo",
+    "status": "confident",
     "difficulty": "easy",
     "tags": [
       "arrays",
       "hashing"
     ],
-    "attempts": 1,
+    "attempts": 2,
     "last_reviewed": "2025-12-02",
-    "next_review": "2025-12-03",
+    "next_review": "2026-01-01",
     "notes": ""
   }
 }
