@@ -7,7 +7,7 @@ A systematic approach to tracking and reviewing LeetCode problems with automated
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    🌅 START YOUR DAY                            │
-│                   python workflow.py daily                      │
+│                   python workflow.py daily                       │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -74,8 +74,10 @@ LEETCODE/
 ├── two-pointers/           # Two pointer problems
 ├── tracker.py              # Progress tracking system
 ├── workflow.py             # Workflow automation
+├── solution.py             # Hide/show solutions for redo
 ├── scan_and_add.py         # Bulk import existing problems
 ├── rename_files.py         # Standardize filenames
+├── add_folder.py           # Add new topic folders
 └── leetcode_progress.json  # Your progress data (auto-generated)
 ```
 
@@ -130,10 +132,58 @@ python workflow.py review 16 confident
 # This will:
 # 1. Update tracker with new status
 # 2. Increment attempt count
-# 3. Commit to git automatically
+# 3. If status is "redo", automatically hide the solution
+# 4. Commit to git automatically
+```
+
+### 🔒 Solution Hiding (Avoid Peeking!)
+
+When you mark a problem as **redo**, the solution is automatically hidden so you can practice fresh:
+
+```bash
+# Mark as redo - solution gets hidden automatically
+python workflow.py review 16 redo
+
+# Your solution is now in: three_sum_closest.py.hidden
+# You get a fresh template to solve from scratch
+```
+
+**After solving it fresh, reveal your old solution to compare:**
+```bash
+python solution.py show 16
+
+# This will:
+# - Save your new attempt as: three_sum_closest_attempt.py
+# - Restore your original solution
+# - Now you can compare both approaches!
+```
+
+**Manually hide/show solutions:**
+```bash
+# Hide a specific problem
+python solution.py hide 16
+
+# Show a specific problem
+python solution.py show 16
+
+# Hide ALL problems marked as redo
+python solution.py hide-all-redo
 ```
 
 ## 🛠️ Manual Commands
+
+### Solution Management
+
+```bash
+# Hide a solution for fresh practice
+python solution.py hide 42
+
+# Reveal solution after solving
+python solution.py show 42
+
+# Hide all problems marked as redo
+python solution.py hide-all-redo
+```
 
 ### Tracker Commands
 
@@ -198,10 +248,6 @@ When adding problems, use these topic keywords (they map to folders):
 | `stack` | stack |
 | `tree`, `trees` | trees |
 | `pointer`, `pointers` | two-pointers |
-| `greedy` | greedy |
-| `heap`, `pq`, `priority` | heap |
-| `graph`, `graphs`, `dfs`, `bfs` | graphs |
-| `dp`, `dynamic` | dynamic-programming |
 
 ### Adding New Topic Folders
 

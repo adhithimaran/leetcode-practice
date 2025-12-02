@@ -29,16 +29,6 @@ TOPIC_FOLDERS = {
     "trees": "trees",
     "pointer": "two-pointers",
     "pointers": "two-pointers",
-        "dp": "dynamic-programming",
-    "dynamic": "dynamic-programming",
-        "graph": "graphs",
-    "graphs": "graphs",
-    "dfs": "graphs",
-    "bfs": "graphs",
-        "heap": "heap",
-    "pq": "heap",
-    "priority": "heap",
-        "greedy": "greedy",
 }
 
 def run_command(cmd, check=True):
@@ -137,8 +127,24 @@ def review_problem(number, status):
         "--attempt"
     ])
     
+    # If marking as redo, hide the solution
+    if status == "redo":
+        print("\n🔒 Hiding solution for fresh practice...")
+        run_command(["python", "solution.py", "hide", str(number)], check=False)
+        print("💡 Your solution is now hidden. Solve it fresh!")
+        print(f"   To reveal: python solution.py show {number}")
+    
     # Git commit
-    run_command(["git", "add", "leetcode_progress.json"])
+    files_to_add = ["leetcode_progress.json"]
+    
+    # Check if solution was hidden (need to commit both files)
+    result = run_command(["git", "status", "--porcelain"], check=False)
+    if result.stdout:
+        # Add all modified files in the problem's folder
+        run_command(["git", "add", "-A"], check=False)
+    else:
+        run_command(["git", "add"] + files_to_add, check=False)
+    
     run_command(["git", "commit", "-m", f"Review: {number} (now {status})"])
     
     print(f"\n✓ Review recorded and committed!")
