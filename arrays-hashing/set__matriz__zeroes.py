@@ -11,11 +11,21 @@ Solution:
 """
 
 class Solution(object):
-    def solve(self):
+    def setZeroes(self, matrix):
         """
-        :rtype: 
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        pass
+        ref_matrix = [row[:] for row in matrix]
+        for i in range(len(ref_matrix)):
+            for j in range(len(ref_matrix[0])):
+                if ref_matrix[i][j] == 0:
+                    #row
+                    for b in range(len(ref_matrix[0])):
+                        matrix[i][b] = 0
+                    #col
+                    for a in range(len(ref_matrix)):
+                        matrix[a][j] = 0
 
 
 # Test cases
