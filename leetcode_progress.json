@@ -976,5 +976,19 @@
     "last_reviewed": "2025-12-02",
     "next_review": "2026-01-01",
     "notes": ""
+  },
+  "0073_set_matriz_zeroes": {
+    "number": 73,
+    "name": "Set Matriz Zeroes",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2025-12-03",
+    "next_review": "2025-12-04",
+    "notes": ""
   }
 }
