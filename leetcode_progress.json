@@ -990,5 +990,19 @@
     "last_reviewed": "2025-12-03",
     "next_review": "2025-12-04",
     "notes": ""
+  },
+  "0034_find_first_and_last_position_of_element_in_sorted_array": {
+    "number": 34,
+    "name": "Find First and Last Position of Element in Sorted Array",
+    "status": "redo",
+    "difficulty": "medium",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2025-12-29",
+    "next_review": "2025-12-30",
+    "notes": ""
   }
 }
