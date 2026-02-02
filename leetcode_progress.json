@@ -1008,15 +1008,15 @@
   "0242_valid_anagram": {
     "number": 242,
     "name": "Valid Anagram",
-    "status": "redo",
+    "status": "confident",
     "difficulty": "easy",
     "tags": [
       "arrays",
       "hashing"
     ],
-    "attempts": 1,
+    "attempts": 2,
     "last_reviewed": "2026-02-02",
-    "next_review": "2026-02-03",
+    "next_review": "2026-03-04",
     "notes": ""
   }
 }

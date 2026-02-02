@@ -11,11 +11,12 @@ Solution:
 """
 
 class Solution(object):
-    def solve(self):
-        """
-        :rtype: 
-        """
-        pass
+    def solve(self, s: str, t: str) -> bool:
+        s_alpa = sorted(s)
+        t_alpha = sorted(t)
+        if s_alpa == t_alpha:
+            return True
+        return False
 
 
 # Test cases
