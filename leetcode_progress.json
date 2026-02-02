@@ -1004,5 +1004,19 @@
     "last_reviewed": "2025-12-29",
     "next_review": "2026-01-05",
     "notes": ""
+  },
+  "0242_valid_anagram": {
+    "number": 242,
+    "name": "Valid Anagram",
+    "status": "redo",
+    "difficulty": "easy",
+    "tags": [
+      "arrays",
+      "hashing"
+    ],
+    "attempts": 1,
+    "last_reviewed": "2026-02-02",
+    "next_review": "2026-02-03",
+    "notes": ""
   }
 }
