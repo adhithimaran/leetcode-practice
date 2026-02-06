@@ -1,28 +1,26 @@
 def sol(strs):
-    anagram_group_list = []
-    if (len(strs) <= 1) :
-        return [strs]
-    # iterate through strs (if length is greater than 1)
-        # sort each element and check against each group made in out list
-        # add to that group or make a new group
-    # return out list
+    strs_alpha = []
     for i in range(len(strs)):
-        if (i == 0): 
-            anagram_group_list.append([strs[i]])
-            continue
-                
-        sorted_ele = sorted(strs[i])
-        added = False
-        for j in range(len(anagram_group_list)):
-            if (sorted_ele == sorted(anagram_group_list[j][0])):
-                anagram_group_list[j].append(strs[i])
-                added = True
-                break
+        curr = sorted(strs[i])
+        curr_alpha = "".join(curr)
+        curr_alpha = curr_alpha.lower()
+        strs_alpha.append(curr_alpha)
+    
+    ana_dict = {}
+    for i in range(len(strs)):
+        curr_original = strs[i]
+        curr_sorted = strs_alpha[i]
+        if curr_sorted in ana_dict:
+            ana_dict[curr_sorted].append(curr_original)
+        else:
+            ana_dict[curr_sorted] = [curr_original]
 
-        if (added != True):
-            anagram_group_list.append([strs[i]])
+    out = []
+    for key, value in ana_dict.items():
+        print(value)
+        out.append(value)
+    return out
 
-    return anagram_group_list
 
 strs=["act","pots","tops","cat","stop","hat"]
 
